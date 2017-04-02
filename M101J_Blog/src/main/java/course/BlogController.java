@@ -51,7 +51,6 @@ public class BlogController {
     private final UserDAO userDAO;
     private final SessionDAO sessionDAO;
 
-    
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
             new BlogController("mongodb://localhost");
